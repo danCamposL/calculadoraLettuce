@@ -2,7 +2,6 @@
 # Eduardo Daniel Campos Loera
 from lettuce import step, world
 from calculadora import Calculadora
-from mummRa import MummRa
 
 @step(u'cuando realizo la operación')
 def cuando_realizo_la_operacion(step):
